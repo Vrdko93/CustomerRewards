@@ -1,8 +1,9 @@
-To run the project, import it into "Spring Tool Suite" (STS)
-Double-click on the project
-After the project opens, right-click on the project name
-Go to "Run As" and then click on "Spring Boot App"
-Use Postman to test the API endpoints
+Before running the project, create a MySQL database named rewards_db using MySQL Workbench.
+To run the project, import it into "Spring Tool Suite" (STS).
+Double-click on the project.
+After the project opens, right-click on the project name.
+Go to "Run As" and then click on "Spring Boot App".
+Use Postman to test the API endpoints.
 
 API Endpoints
 
