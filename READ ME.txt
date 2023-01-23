@@ -1,0 +1,43 @@
+To run the project, import it into "Spring Tool Suite" (STS)
+Double-click on the project
+After the project opens, right-click on the project name
+Go to "Run As" and then click on "Spring Boot App"
+Use Postman to test the API endpoints
+
+API Endpoints
+
+// Create month objects 
+localhost:8080               <------------- GO TO THIS URL FIRST TO TRIGGER THE CREATION OF MONTH OBJECTS!!!
+
+// Process customer creation - POST Request
+localhost:8080/customers
+
+// Get all customers - GET request
+localhost:8080/customers
+
+// Get a customer - GET request
+localhost:8080/customers/{id}
+
+// Customer makes a transaction - POST Request
+localhost:8080/customers/{id}/{amount}/{monthID}
+
+// Get total rewards for one customer for one month - GET request
+localhost:8080/customers/rewards/{id}/{monthID}
+
+// Get total rewards for one customer for 3 consecutive months combined - GET request
+localhost:8080/customers/rewards/threemonth/{id}/{startingMonthID}
+
+// Get total rewards for one customer for all months combined - GET request
+localhost:8080/customers/rewards/{id}
+
+// Get all transactions - GET request
+localhost:8080/transactions
+
+// Get a transaction - GET request
+localhost:8080/transactions/{id}
+
+// Get all months - GET request
+localhost:8080/months
+
+// Get a month - GET request
+localhost:8080/months/{id}
